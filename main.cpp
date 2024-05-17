@@ -1,2 +1,1 @@
-#include<algorithm>
-#include<vector>
+//‰Û‘è‚²‚Æ‚Éƒuƒ‰ƒ“ƒ`•ª‚¯‚Ä‚Ü‚·
