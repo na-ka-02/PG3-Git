@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+	//string型のメールアドレスの配列
 	vector<string> studentMailNumber =
 	{
 		"k022g0108@g.neec.ac.jp", "k022g0045@g.neec.ac.jp",
@@ -71,15 +72,18 @@ int main()
 		"k022g0001@g.neec.ac.jp"
 	};
 
+	//上に書いてあるものを全表示する
 	cout << "全表示します" << endl;
 	for (int i = 0; i < studentMailNumber.size(); i++)
 	{
 		cout << studentMailNumber[i] << endl;
 	}
+	//昇順に並び替え
 	sort(studentMailNumber.begin(), studentMailNumber.end());
 
 	cout << "\n全要素を表示します" << endl;
 
+	//もう一回全表示する
 	for (int i = 0; i < studentMailNumber.size(); i++)
 	{
 		cout << studentMailNumber[i] << endl;
