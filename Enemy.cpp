@@ -28,7 +28,8 @@ void Enemy::Secession()
 //更新
 void Enemy::Update()
 {
-	(this->*spFuncTable[0])();
-	(this->*spFuncTable[1])();
-	(this->*spFuncTable[2])();
+	for (int i = 0; i < 3; ++i)
+	{
+		(this->*spFuncTable[i])();
+	}
 }
