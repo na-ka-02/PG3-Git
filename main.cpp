@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	vector<string> a =
+	vector<string> studentMailNumber =
 	{
 		"k022g0108@g.neec.ac.jp", "k022g0045@g.neec.ac.jp",
 		"k022g0007@g.neec.ac.jp", "k022g0015@g.neec.ac.jp",
@@ -72,17 +72,17 @@ int main()
 	};
 
 	cout << "全表示します" << endl;
-	for (int i = 0; i < a.size(); i++)
+	for (int i = 0; i < studentMailNumber.size(); i++)
 	{
-		cout << a[i] << endl;
+		cout << studentMailNumber[i] << endl;
 	}
-	sort(a.begin(), a.end());
+	sort(studentMailNumber.begin(), studentMailNumber.end());
 
 	cout << "\n全要素を表示します" << endl;
 
-	for (int i = 0; i < a.size(); i++)
+	for (int i = 0; i < studentMailNumber.size(); i++)
 	{
-		cout << a[i] << endl;
+		cout << studentMailNumber[i] << endl;
 	}
 
 	return 0;
