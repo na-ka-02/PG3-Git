@@ -20,8 +20,13 @@ public:
 		{
 			return static_cast<Type1>(num1);
 		}
+		//等しいとき0を返す
+		else if (num1 == num2)
+		{
+			return 0;
+		}
 		//num2がnum1より小さかったらaを返す
-		else if (num2 < num1)
+		else
 		{
 			return static_cast<Type1>(num2);
 		}
