@@ -127,15 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DeathEater.cpp" />
-    <ClCompile Include="Dementor.cpp" />
-    <ClCompile Include="Load.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DeathEater.h" />
-    <ClInclude Include="Dementor.h" />
-    <ClInclude Include="Load.h" />
+    <ClInclude Include="IShape.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
