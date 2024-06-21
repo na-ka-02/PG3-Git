@@ -1,17 +1,17 @@
 #include "DeathEater.h"
 
 
-DeathEater::DeathEater()
+FriendEnjoy::FriendEnjoy()
 {
-	printf("ディメンダーが現れた\n");
+	printf("友達の家に遊びに行くよ\n");
 }
 
-DeathEater::~DeathEater()
+FriendEnjoy::~FriendEnjoy()
 {
-	printf("ディメンダーを倒した\n");
+	printf("友達と会うのをあきらめた\n");
 }
 
-void DeathEater::Attack()
+void FriendEnjoy::FriendOver()
 {
-	printf("ディメンダーの吸血鬼のキス！\n");
+	printf("友達が待合場所にいないよ\n");
 }

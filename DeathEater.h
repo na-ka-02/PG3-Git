@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include"stdio.h"
 
-class DeathEater
+class FriendEnjoy
 {
 public:/*メンバ関数*/
 	//コンストラクタ(宣言)
-	DeathEater();
+	FriendEnjoy();
 	//デストラクタ
-	virtual	~DeathEater();
+	virtual	~FriendEnjoy();
 	//攻撃(宣言)
-	virtual void Attack();
+	virtual void FriendOver();
 
 protected:/*メンバ変数*/
 	//名前

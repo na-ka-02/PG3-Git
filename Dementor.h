@@ -2,15 +2,15 @@
 #include "DeathEater.h"
 
 //デメンタークラスの定義
-class Dementor :public DeathEater
+class NoFriend :public FriendEnjoy
 {
 public:/*メンバ変数*/
 	//コンストラクタ(宣言)
-	Dementor();
+	NoFriend();
 	//デストラクタ(宣言)
-	~Dementor();
+	~NoFriend();
 	//攻撃(宣言)
-	void Attack()override;
+	void FriendOver()override;
 
 private:/*メンバ変数*/
 };

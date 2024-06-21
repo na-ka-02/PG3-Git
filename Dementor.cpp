@@ -1,16 +1,16 @@
 #include "Dementor.h"
 
-Dementor::Dementor()
+NoFriend::NoFriend()
 {
-	printf("ディメンダーが現れた\n");
+	printf("友達の家に遊びに行くよ\n");
 }
 
-Dementor::~Dementor()
+NoFriend::~NoFriend()
 {
-	printf("ディメンダーを倒した\n");
+	printf("友達と会うのをあきらめた\n");
 }
 
-void Dementor::Attack()
+void NoFriend::FriendOver()
 {
-	printf("ディメンダーの吸血鬼のキス！\n");
+	printf("友達が待合場所にいないよ\n");
 }
